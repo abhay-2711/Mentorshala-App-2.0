@@ -1,0 +1,116 @@
+.header {
+    height: 75vh;
+    /* height: 10vh; */
+    /* display: flex; */
+    /* background: rgba(0, 0, 0, 0.3); */
+    gap: 25rem;
+    justify-content: center;
+    /* border: 1px solid red; */
+    position: relative;
+    background: linear-gradient(#36096D,#37d5d6),url("https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"); */
+}
+#header-grid{
+    /* border: 1px solid red; */
+    height: 15%;
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.3); */
+
+}
+.coloumns-grid{
+    /* border: 1px solid red; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.coloumns-grid:nth-child(1){
+    justify-content: center;
+    color: white;
+}
+.coloumns-grid img{
+    width: 25%;
+    margin: 0% 4%;
+}
+.coloumns-grid h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+.coloumns-grid:nth-child(2){
+    justify-content: end;
+    padding: 0% 2%;
+}
+.coloumns-grid:nth-child(2) button{
+    margin: 0% 2%;
+    padding: 0% 1%;
+    background: #FC575E;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 12%;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.coloumns-grid:nth-child(2) button:hover{
+    background: #20B2AA;
+}
+.coloumns-grid:nth-child(2) button a{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+    text-decoration: none;
+    color: aliceblue;
+}
+#header-nav-items{
+    display: flex;
+    width: 27%;
+    margin: 0% 0%;
+    color: #616161;
+}
+.nav-item{
+    margin: 0% 7%;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #ABE9CD;
+}
+#wave1{
+    position: absolute;
+    bottom:0%;
+}
+
+#bannerText{
+    /* border: 1px solid red; */
+    margin: 6% 5%;
+    width: 45%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#bannerText h1{
+    font-size: 480%;
+    font-weight: 800;
+}
+#bannerImg{
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
+    width: 35%;
+}
+#wave2{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    /* left: 3%; */
+    height: 75%;
+    width: 100%;
+}
+#wave2 path{
+    fill: url(#MyGradient);
+}
+#mlogo{
+    border-radius: 50%;
+    /* 3d effect */
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.6), 0 0 0 2px rgba(255,255,255,0.3), 0 0 0 3px rgba(255,255,255,0.1), 0 0 0 4px rgba(255,255,255,0.05), 0 0 0 5px rgba(255,255,255,0.03), 0 0 0 6px rgba(255,255,255,0.02), 0 0 0 7px rgba(255,255,255,0.01), 0 0 0 8px rgba(255,255,255,0.01);
+    background: #F2F2F2;
+}

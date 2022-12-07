@@ -1,0 +1,77 @@
+footer{
+    background: #0D324D;
+    padding: 3rem 0;
+    text-align: center;
+    font-size:0.9rem;
+    margin-top:7rem;
+    color: white;
+}
+#footerContainer-Name{
+    display: flex;
+    align-items: center;
+    padding: 0% 1%;
+}
+#footerContainer-Name h3{
+    padding: 0% 1%;
+    text-align: start;
+    font-family: 'Ubuntu', sans-serif;
+}
+#footerContainer-Name img{
+    width: 4%;
+}
+#footerContainer-list{
+    /* border: 1px solid red; */
+    margin: 1% 0%;
+    padding: 0% 1%;
+    text-align: start;
+    display: flex;
+}
+.footerContainer-list-item{
+    /* border: 1px solid blue; */
+    margin: 0% 3%;
+    padding: 0% 0%;
+}
+.footerContainer-list-item h5{
+    font-weight: 300;
+}
+.footerContainer-list-item ul{
+    list-style: none;
+}
+.footerContainer-list-item ul li::before{
+    content: "\2022";
+    color: #539f9f;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.footerContainer-list-item ul li{
+    color: #539f9f;
+    margin: 3% 0%;
+}
+.footerContainer-list-item ul li:hover{
+    color: white;
+}
+.footerContainer-list-item:nth-child(5){
+    float: right;
+    padding: 0% 5%;
+}
+.footerContainer-list-item:nth-child(5) div{
+    margin: 7% 0%;
+    /* border: 1px solid red; */
+    display: flex;
+    color: #539f9f;
+
+}
+.footerContainer-list-item:nth-child(5) div:hover{
+    color: white;
+}
+.footer-icons{
+    margin: 0% 1%;
+    color: aliceblue;
+}
+
+.footerContainer-list-item:nth-child(5) div:nth-child(1){
+    color: aliceblue;
+    margin: 0%;
+}

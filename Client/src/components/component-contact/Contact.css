@@ -1,0 +1,48 @@
+#contactContainer{
+    width:103.4%;
+    height: 10vh;
+    background:#fefefe;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    border-style: none;
+    border-bottom:1px solid #004;
+    margin:right 10vh;
+    justify-self: center;
+    box-shadow: 5px 5px 5px grey;
+    margin-bottom: 0.5vh;
+}
+#contactContainer:hover{
+    box-shadow: 5px 5px 10px grey;
+    
+}
+
+#contactImage{
+    border-radius: 50%;
+    border: 2px solid black;
+    width:50px;
+    height:50px;
+    margin-left: 1vw;
+}
+#contactName{
+    margin-left: 1vw;
+    font-weight: 600;
+    font-size: 2.3vh;
+    margin-top:-0.5vh;
+}
+#contactLastmessage{
+    margin-left:1vw;
+    font-weight: 300;
+    font-size:1.8vh;
+    margin-top: -0.1vh;
+    /* color: #353535; */
+}
+/* #timestamp{
+    flex-direction: column;
+    align-self: start;
+    position: relative;
+    right:10px;
+    justify-self: end;
+    margin-top: 1vh;
+    justify-content: right;
+} */
